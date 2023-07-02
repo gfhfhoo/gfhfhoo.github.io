@@ -1,0 +1,77 @@
+:root {
+    --nav-bg-color: rgb(26, 26, 26);
+    --nav-bg-color-offset: rgba(26, 26, 26, 0.8);
+    --backtop-bg-color: rgba(26, 26, 26, 0.3);
+}
+
+@font-face {
+    font-family: 'Google Fonts';
+    src: url("./assets/fonts/MaterialIconsOutlined-Regular.otf");
+}
+
+.flex {
+    display: flex;
+}
+
+.align {
+    align-items: center;
+}
+
+.jcenter {
+    justify-content: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.slash-title {
+    min-width: 320px;
+    text-align: center;
+}
+
+.slash-title:before {
+    content: '-';
+    margin-right: 20px;
+    color: orange;
+    font-weight: bold;
+}
+
+.slash-title:after {
+    content: '-';
+    margin-left: 20px;
+    color: orange;
+    font-weight: bold;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+
+@keyframes slide_up {
+    0% {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(237, 237, 237);
+}
